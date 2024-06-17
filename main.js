@@ -1,10 +1,10 @@
 function contadorInteractivo() {
-    let continuar = true;
-    while (continuar) {
+    let continuarMultiplicacion = true;
+    while (continuarMultiplicacion) {
         let usuarioInput = prompt("Introduce un número para multiplicar por 2, o 'salir' para terminar el simulador.");
         if (usuarioInput.toLowerCase() === 'salir') {
             alert("Simulador terminado.");
-            continuar = false;
+            continuarMultiplicacion = false;
         } else {
             let numero = parseInt(usuarioInput);
             if (!isNaN(numero)) {
