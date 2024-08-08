@@ -97,20 +97,3 @@
     display: flex;
     justify-content: flex-start;
 }
-
-.history{
-    background-color: #fff;
-    width: 10vw;
-    max-width: 80px;
-    padding: 10px 5px;
-    position: absolute;
-    transform: translate(50%, 50%);
-    right: 10%;
-    border-radius: 20px;
-    box-shadow: 0 1.25em 1.8em rgb(0, 0, 0, 0.20);
-    font-size: 15PX;
-    color: #3ac9a7;
-    text-align: center;
-    text-decoration: none;  
-}
-
